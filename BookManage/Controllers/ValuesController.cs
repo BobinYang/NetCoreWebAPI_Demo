@@ -29,5 +29,25 @@ namespace BookManage.Controllers
             return resp;
         }
 
+        //接口示例：
+        //{
+        // "ISBN": "2",
+        // "name": "1",
+        // "price": "1",
+        // "date": "20200219",
+        // "authors": [
+        //     {
+        //         "name": "erry",
+        //         "sex": "H",
+        //         "birthday": "18888515"
+        //     },
+        //     {
+        //         "name": "Tom",
+        //         "sex": "M",
+        //         "birthday": "18440101"
+        //     }
+        //     ]
+        // }
+
     }
 }
