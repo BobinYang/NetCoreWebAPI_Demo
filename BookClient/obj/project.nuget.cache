@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xs39Iso1Q+b4wyBB37hyc9/3o0l9zRmhtJtTpfbOPWILWeFkm2lc576ShQzPqpJCeWm8akMy4oWPFRHPzNQp/g==",
+  "success": true,
+  "projectFilePath": "D:\\temp\\BookClient\\BookClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bobin.yang\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
