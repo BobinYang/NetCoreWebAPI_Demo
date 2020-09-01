@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xs39Iso1Q+b4wyBB37hyc9/3o0l9zRmhtJtTpfbOPWILWeFkm2lc576ShQzPqpJCeWm8akMy4oWPFRHPzNQp/g==",
+  "dgSpecHash": "Gl/2cn3fo//vvWFycHMO4HcmqqjBpqq+TthsByW/wwooEkhPKW9Ucg9cVW87liCbZQ6j5V+Ei+waPMYuq3uHfg==",
   "success": true,
-  "projectFilePath": "D:\\temp\\BookClient\\BookClient.csproj",
+  "projectFilePath": "D:\\MyGitHub\\NetCoreWebAPI_Demo\\BookClient\\BookClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bobin.yang\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

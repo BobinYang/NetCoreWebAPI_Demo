@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\temp\\BookManage\\BookManage.csproj": {}
+    "D:\\MyGitHub\\NetCoreWebAPI_Demo\\BookManage\\BookManage.csproj": {}
   },
   "projects": {
-    "D:\\temp\\BookManage\\BookManage.csproj": {
+    "D:\\MyGitHub\\NetCoreWebAPI_Demo\\BookManage\\BookManage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\temp\\BookManage\\BookManage.csproj",
+        "projectUniqueName": "D:\\MyGitHub\\NetCoreWebAPI_Demo\\BookManage\\BookManage.csproj",
         "projectName": "BookManage",
-        "projectPath": "D:\\temp\\BookManage\\BookManage.csproj",
+        "projectPath": "D:\\MyGitHub\\NetCoreWebAPI_Demo\\BookManage\\BookManage.csproj",
         "packagesPath": "C:\\Users\\bobin.yang\\.nuget\\packages\\",
-        "outputPath": "D:\\temp\\BookManage\\obj\\",
+        "outputPath": "D:\\MyGitHub\\NetCoreWebAPI_Demo\\BookManage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bobin.yang\\AppData\\Roaming\\NuGet\\NuGet.Config",

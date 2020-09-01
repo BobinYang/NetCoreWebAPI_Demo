@@ -16,22 +16,27 @@ namespace BookClient
             req.ISBN = "2";
             req.name = ".NET Core从入门到入土";
             req.authors = null;
-            req.price = 1.888M;
-            string req_str = JsonConvert.SerializeObject(req);
+            req.price = 1.00M;
+            string req_str = JsonConvert.SerializeObject(req);//序列化成JSON
             Console.WriteLine($"[REQ]{req_str}");
 
-            HttpClient httpClient = new HttpClient();
+            string result = Post(url, req_str);
+            
+            Console.WriteLine($"[RESP]{result}");
+            AddResponse resp = JsonConvert.DeserializeObject<AddResponse>(result);//反序列化
+            Console.WriteLine($"[resp.result]{resp.result}");
+        }
+        static string Post(string url, string req_str)
+        {
+            HttpClient client = new HttpClient();
             var content = new StringContent(req_str);
             content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-            var tokenResponse = httpClient.PostAsync(url, content);
-            tokenResponse.Wait();
-            tokenResponse.Result.EnsureSuccessStatusCode();
-            var res = tokenResponse.Result.Content.ReadAsStringAsync();
+            var response = client.PostAsync(url, content);
+            response.Wait();
+            response.Result.EnsureSuccessStatusCode();
+            var res = response.Result.Content.ReadAsStringAsync();
             res.Wait();
-            Console.WriteLine($"[RESP]{ res.Result}");
-
-            AddResponse resp = JsonConvert.DeserializeObject<AddResponse>(res.Result);
-            Console.WriteLine($"[resp.result]{resp.result}");
+            return res.Result;
         }
     }
 }

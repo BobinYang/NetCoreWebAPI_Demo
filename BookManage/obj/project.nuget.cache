@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/mkLE+2+5bPJpx+EFHSf55xOatPdkBHnay714roQTnZYvvxC3pa64lnx/nC47HMsSrKe1COAhUQOqjgYzAK85Q==",
+  "dgSpecHash": "oFJCO81PFFCU79Y4WRN/HxmbMZLQep8nn8vOR6QXwR1jlgFtq14tYADefDj8ikFfuMt2AY+Fn6SGK4+zG6bZtg==",
   "success": true,
-  "projectFilePath": "D:\\temp\\BookManage\\BookManage.csproj",
+  "projectFilePath": "D:\\MyGitHub\\NetCoreWebAPI_Demo\\BookManage\\BookManage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bobin.yang\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.7\\microsoft.aspnetcore.jsonpatch.3.1.7.nupkg.sha512",
     "C:\\Users\\bobin.yang\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.7\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.7.nupkg.sha512",
